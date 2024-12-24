@@ -1,0 +1,54 @@
+body {
+    font-family: 'Perpetua';
+    background-color: #896c83;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #e5d1e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #a7286e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d485ba;
+}
+
+#success-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(87, 42, 67);
+    text-align: center;
+}
